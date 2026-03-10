@@ -3,12 +3,25 @@
 
 }
 
-.navLogo {
+.logo {
     height: clamp(30px, 4vw, 60px);
+    width: auto;
 }
 
 .navLinks a {
     font-size: clamp(12px, 1.5vw, 32px);
     margin: 0 clamp(5px, 2vw, 35px);
     white-space: nowrap;
+}
+
+footer{
+    background-color: #49526a;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: large;
+    font-family: "Rubik";
+    font-weight: 450;
 }
