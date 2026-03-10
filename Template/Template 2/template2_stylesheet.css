@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #49526a;
+
+}
+
+.navLogo {
+    height: clamp(30px, 4vw, 60px);
+}
+
+.navLinks a {
+    font-size: clamp(12px, 1.5vw, 32px);
+    margin: 0 clamp(5px, 2vw, 35px);
+    white-space: nowrap;
+}
