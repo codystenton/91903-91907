@@ -1,6 +1,5 @@
 .navbar {
     background-color: #49526a;
-
 }
 
 .logo {
@@ -13,6 +12,7 @@
     font-size: clamp(12px, 1.5vw, 32px);
     margin: 0 clamp(5px, 2vw, 35px);
     white-space: nowrap;
+    font-family: "Rubik";
 }
 
 footer{
