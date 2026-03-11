@@ -4,7 +4,7 @@
 }
 
 .logo {
-    height: clamp(30px, 4vw, 60px);
+    height: clamp(20px, 4vw, 60px);
     width: auto;
 }
 
