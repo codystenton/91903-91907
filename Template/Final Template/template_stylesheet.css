@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #49526a;
+
+}
+
+.logo {
+    height: clamp(20px, 4vw, 60px);
+    width: auto;
+}
+
+.navLinks a {
+    font-size: clamp(10px, 1.5vw, 32px);
+    margin: 0 clamp(0px, 2vw, 35px);
+    white-space: nowrap;
+    font-family: "Rubik";
+}
+
+footer{
+    background-color: #49526a;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: clamp(12px, 1.5vw, 32px);
+    font-family: "Rubik";
+    font-weight: 450;
+}
