@@ -4,13 +4,13 @@
 }
 
 .logo {
-    height: clamp(30px, 4vw, 60px);
+    height: clamp(20px, 4vw, 60px);
     width: auto;
 }
 
 .navLinks a {
-    font-size: clamp(12px, 1.5vw, 32px);
-    margin: 0 clamp(5px, 2vw, 35px);
+    font-size: clamp(10px, 1.5vw, 32px);
+    margin: 0 clamp(0px, 2vw, 35px);
     white-space: nowrap;
     font-family: "Rubik";
 }
