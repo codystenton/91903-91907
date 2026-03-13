@@ -1,10 +1,10 @@
 .navbar {
-    background-color: #49526a;
+    background-color: #0c304b;
 
 }
 
 .logo {
-    height: clamp(20px, 4vw, 60px);
+    height: clamp(18.3px, 5vw, 60px);
     width: auto;
 }
 
@@ -16,7 +16,7 @@
 }
 
 footer{
-    background-color: #49526a;
+    background-color: #0c304b;
     color: white;
     padding: 20px 0;
     position: fixed;
