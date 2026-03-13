@@ -22,7 +22,7 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    font-size: clamp(12px, 1.5vw, 32px);
+    font-size: clamp(12px, 1.4vw, 32px);
     font-family: "Rubik";
     font-weight: 450;
 }
