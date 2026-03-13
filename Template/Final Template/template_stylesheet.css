@@ -26,3 +26,9 @@ footer{
     font-family: "Rubik";
     font-weight: 450;
 }
+
+
+.footericons{
+    width: clamp(16px, 2vw, 32px);
+    height: auto;
+}
