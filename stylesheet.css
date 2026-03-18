@@ -6,6 +6,9 @@
 
 }
 
+
+/* Adjusts the nav bar and logo's sizes to be responsive for all devices */
+
 .logo {
     height: clamp(18.3px, 5vw, 60px);
     width: auto;
@@ -17,6 +20,8 @@
     white-space: nowrap;
     font-family: "Rubik";
 }
+
+/* Styling for the footer across all 4 pages, and auto-adjust */
 
 footer{
     background-color: #0c304b;

@@ -10,15 +10,18 @@
         @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
     </style>
 </head>
-<body>
-    <nav class="navbar d-flex align-items-center">
 
+<body>
+    <!-- Alligns Nav-Bar links and logo horizontally. -->
+    <nav class="navbar d-flex align-items-center">
+        <!-- Adds margin to the logo on larger screens. -->
         <div class="navLogo flex-fill ms-lg-3">
             <a href="index.html">
                 <img src="img/logo.png" class="logo" alt="LogoImage">
             </a>
         </div>
 
+        <!-- Links to other 3 pages on our website -->
         <div class="navLinks flex-fill me-lg-5">
             <a class="text-white text-decoration-none"href="index.html">Home</a>
             <a class="text-white text-decoration-none"href="entertainment.html">Entertainment</a>
@@ -26,6 +29,7 @@
             <a class="text-white text-decoration-underline"href="food.html">Food</a>
         </div>
 
+         <!-- Empty space to help balance and center the navbar layout -->
         <div class="navRightSpacer flex-fill"></div>
 
 
@@ -34,17 +38,23 @@
 
     <footer>
         <div class="container">
+
+            <!-- Bootstrap container to keep content aligned and padded -->
             <div class="row align-items-center text-center">
     
+
+                <!-- Left column in the footer -->
                 <div class="col-md-4">
                     ©CheapAdvisor
                 </div>
     
+                <!-- Middle column with flexbox to align icon and email horizontally -->
                 <div class="col-md-4 d-flex justify-content-center align-items-center gap-2">
                     <img class="footericons img-fluid" src="img/mailicon.png" alt="Mail icon">
                     <span>cheapadvisor@gmail.com</span>
                 </div>
     
+                <!-- Right column with phone icon + text -->
                 <div class="col-md-4 d-flex justify-content-center align-items-center gap-2">
                     <img class="footericons img-fluid" src="img/phoneicon.png" alt="Phone icon">
                     <span>Phone Us: +64 21 345 678</span>
