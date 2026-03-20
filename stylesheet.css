@@ -50,22 +50,56 @@ footer{
         /* Global Styles */
 /* -------------------------------- */
 
+body {
+    background-color: #f3eedf;
+    font-family: "Rubik", sans-serif;
+    padding-bottom: 100px;
+}
+
+/* -------------------------------- */
+
+
+
+
+
 
 
 /* -------------------------------- */
-
-
-
-
-
-
-
-/* -------------------------------- */
-        /* Page name */
+        /* Entertainment */
 /* -------------------------------- */
 
+.intro-text {
+    font-size: clamp(18px, 2vw, 32px);
+    font-weight: 400;
+}
 
+.topPicks-heading {
+    font-size: clamp(20px, 2vw, 32px);
+    text-decoration: underline;
+}
 
+.image-heading {
+    font-size: clamp(16px, 1.7vw, 35px);
+    text-decoration: underline;
+    font-weight: 350;
+}
+
+.description-heading {
+    font-size: clamp(14px, 1vw, 18px);
+    text-decoration: underline;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.description-text {
+    font-size: clamp(13px, 1vw, 16px);
+    line-height: 1.25;
+}
+
+.top-images {
+    border: 4px solid #0c304b;
+    border-radius: 5px;
+}
 /* -------------------------------- */
 
 
