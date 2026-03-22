@@ -11,12 +11,12 @@
 /* Adjusts the nav bar and logo's sizes to be responsive for all devices */
 
 .logo {
-    height: clamp(18.3px, 5vw, 60px);
+    height: clamp(17px, 5vw, 60px);
     width: auto;
 }
 
 .navLinks a {
-    font-size: clamp(10px, 1.5vw, 32px);
+    font-size: clamp(9.5px, 1.5vw, 32px);
     margin: 0 clamp(0px, 2vw, 35px);
     white-space: nowrap;
     font-family: "Rubik";
@@ -67,6 +67,19 @@ body {
         /* Entertainment */
 /* -------------------------------- */
 
+.topPicks-container {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.activities-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .main-text {
     font-size: clamp(13px, 2vw, 32px);
     font-weight: 400;
@@ -84,15 +97,15 @@ body {
 }
 
 .description-heading {
-    font-size: clamp(14px, 1vw, 18px);
+    font-size: clamp(14px, 1vw, 25px);
     text-decoration: underline;
     margin-top: 12px;
-    margin-bottom: 4px;
+    margin-bottom: 20px;
 }
 
 .description-text {
-    font-size: clamp(13px, 1vw, 16px);
-    line-height: 1.5;
+    font-size: clamp(13px, 1vw, 20px);
+    line-height: 1.7;
 }
 
 .topPicks-images {
