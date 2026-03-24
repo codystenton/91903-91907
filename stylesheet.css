@@ -175,7 +175,7 @@ figcaption a:hover {
     position: absolute;
     color: white;
     text-align: center;
-    font-size: clamp(18px, 4vw, 45px);
+    font-size: clamp(18px, 4vw, 60px);
 }
 
 .welcometext{
