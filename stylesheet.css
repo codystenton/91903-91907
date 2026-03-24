@@ -16,7 +16,7 @@
 }
 
 .navLinks a {
-    font-size: clamp(10px, 2vw, 32px);
+    font-size: clamp(11px, 2vw, 32px);
     margin: 0 clamp(0px, 2vw, 35px);
     white-space: nowrap;
     font-family: "Rubik";
