@@ -245,7 +245,9 @@ figcaption a:hover {
     left: 42%;
 }
 
-
+.review-box{
+    box-shadow: 10px 10px #9e9a8f;
+}
 
 /* -------------------------------- */
 
