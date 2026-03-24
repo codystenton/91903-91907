@@ -178,9 +178,18 @@ figcaption a:hover {
     font-size: clamp(18px, 4vw, 45px);
 }
 
+.welcometext{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
 
+.cbdimage{
+    box-shadow: 8px 8px #9e9a8f;
+}
 
-
+.indexh5{
+    font-weight: normal;
+}
 
 
 
