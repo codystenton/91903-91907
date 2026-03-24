@@ -184,11 +184,12 @@ figcaption a:hover {
 }
 
 .cbdimage{
-    box-shadow: 8px 8px #9e9a8f;
+    box-shadow: 10px 10px #9e9a8f;
 }
 
 .indexh5{
     font-weight: normal;
+    font-size: clamp(18px, 1vw, 40px)
 }
 
 
