@@ -192,7 +192,23 @@ figcaption a:hover {
     font-size: clamp(18px, 1vw, 40px)
 }
 
+.review-box{
+    max-width: 600px;
+    margin: 60px auto;
+    background-color: #0c304b;
+    color: white;
+    padding: 40px 20px;
 
+}
+
+.review-box h1{
+    font-size: clamp(18px, 3vw, 32px);
+    margin-bottom: 15px;
+}
+
+.review-box p{
+    font-size: clamp(10px, 1vw, 16px);
+}
 
 
 /* -------------------------------- */
