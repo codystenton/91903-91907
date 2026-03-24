@@ -227,21 +227,25 @@ figcaption a:hover {
     height: 100%;
 }
 
-.review-text{
-    position: relative;
+.review-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 90%;        /* Keep text narrower than the column to avoid arrows */
+    margin: 0 auto;        /* Center the text inside the column */
+}
+
+.review-text p {
+    font-size: clamp(10px, 1vw, 14px);  /* Smaller font */
+    line-height: 1.4;
+    margin: 0;
 }
 
 .carousel-control-prev{
     left: 42%;
 }
 
-.review-text p {
-    font-size: clamp(10px, 1vw, 14px);              
-    margin: 0;                            
-}
+
 
 /* -------------------------------- */
 
