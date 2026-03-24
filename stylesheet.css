@@ -231,12 +231,12 @@ figcaption a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 90%;        /* Keep text narrower than the column to avoid arrows */
-    margin: 0 auto;        /* Center the text inside the column */
+    max-width: 90%;
+    margin: 0 auto;       
 }
 
 .review-text p {
-    font-size: clamp(10px, 1vw, 14px);  /* Smaller font */
+    font-size: clamp(10px, 1vw, 14px);
     line-height: 1.4;
     margin: 0;
 }
