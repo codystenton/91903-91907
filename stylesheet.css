@@ -81,7 +81,7 @@ figcaption a:hover {
         /* Entertainment */
 /* -------------------------------- */
 
-.topPicks-container {
+.main-container {
     width: 100%;
     max-width: 2000px;
     margin: 0 auto;
@@ -260,10 +260,21 @@ figcaption a:hover {
 
 
 /* -------------------------------- */
-        /* Page name */
+        /* Entertainment */
 /* -------------------------------- */
 
+.sub-text {
+    font-size: clamp(15px, 1.5vw, 32px);
+    letter-spacing: 1.5px;
+}
 
+.food-carousel .carousel-control-prev{
+    left: 0;
+}
+
+.food-carousel .carousel-control-next{
+    right: 0;
+}
 
 /* -------------------------------- */
 
