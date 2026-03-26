@@ -123,7 +123,7 @@ figcaption a:hover {
     line-height: 1.7;
 }
 
-.topPicks-images {
+.horizontal-images {
     border: 4px solid #0c304b;
     border-radius: 5px;
     width: 100%;
@@ -260,7 +260,7 @@ figcaption a:hover {
 
 
 /* -------------------------------- */
-        /* Entertainment */
+        /* Food */
 /* -------------------------------- */
 
 .sub-text {
@@ -275,6 +275,7 @@ figcaption a:hover {
 .food-carousel .carousel-control-next{
     right: 0;
 }
+
 
 /* -------------------------------- */
 
