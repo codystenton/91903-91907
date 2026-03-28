@@ -88,14 +88,14 @@ figcaption a:hover {
     padding: 30px;
 }
 
-.activities-container {
+.activities-container, .asian-food-container {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
 }
 
 .main-text {
-    font-size: clamp(14px, 2vw, 32px);
+    font-size: clamp(17px, 2vw, 32px);
     font-weight: 450;
 }
 
@@ -131,7 +131,7 @@ figcaption a:hover {
     height: auto;
 }
 
-.activity-images {
+.activity-images{
     border: 4px solid #0c304b;
     border-radius: 5px;
     width: 100%;
@@ -264,19 +264,28 @@ figcaption a:hover {
 /* -------------------------------- */
 
 .sub-text {
-    font-size: clamp(15px, 1.5vw, 32px);
-    letter-spacing: 1.5px;
-}
-
-.food-carousel .carousel-control-prev{
-    left: 0;
-}
-
-.food-carousel .carousel-control-next{
-    right: 0;
+    font-size: clamp(14px, 1.5vw, 32px);
+    letter-spacing: 1.2px;
 }
 
 
+.food-banner-container {
+    width: 100%;
+}
+
+.food-banner {
+    width: auto;
+    max-width: 1200px;
+    height: clamp(100px, 25vw, 350px);
+    border-radius: 6px;
+}
+
+.asian-food-images {
+    border: 4px solid #0c304b;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+}
 /* -------------------------------- */
 
 
