@@ -94,14 +94,13 @@ figcaption a:hover {
     margin: 0 auto;
 }
 
-.main-text {
-    font-size: clamp(17px, 2vw, 32px);
+.main-heading {
+    font-size: clamp(17px, 2.2vw, 32px);
     font-weight: 450;
 }
 
 .section-heading {
-    font-size: clamp(15px, 2vw, 32px);
-    text-decoration: underline;
+    font-size: clamp(15px, 3vw, 42px);
     font-weight: 430;
 }
 
@@ -118,9 +117,12 @@ figcaption a:hover {
     margin-bottom: 5px;
 }
 
-.topPicks-description-text {
+.description-text {
     font-size: clamp(13px, 1.4vw, 20px);
     line-height: 1.7;
+    min-width: 200px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .horizontal-images {
@@ -142,6 +144,8 @@ figcaption a:hover {
 .activities-description-text {
     font-size: clamp(13px, 1.8vw, 20px);
     line-height: 1.7;
+    max-width: 550px;
+    margin: 0 auto;
 }
 /* -------------------------------- */
 
