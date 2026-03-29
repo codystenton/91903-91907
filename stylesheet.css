@@ -259,6 +259,13 @@ figcaption a:hover {
     margin: 0;
 }
 
+.indexfigcaptions{
+    margin-top: 10px;
+    text-align: center;
+    font-size: clamp(10px, 1vw, 14px);
+    width: 500px;
+}
+
 /* -------------------------------- */
 
 
