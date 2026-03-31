@@ -95,17 +95,17 @@ figcaption a:hover {
 }
 
 .main-heading {
-    font-size: clamp(17px, 2.2vw, 32px);
+    font-size: clamp(17px, 2.5vw, 45px);
     font-weight: 450;
 }
 
 .section-heading {
-    font-size: clamp(15px, 3vw, 42px);
+    font-size: clamp(20px, 3.3vw, 42px);
     font-weight: 430;
 }
 
 .heading {
-    font-size: clamp(16px, 1.7vw, 35px);
+    font-size: clamp(18px, 1.7vw, 35px);
     text-decoration: underline;
     font-weight: 450;
 }
@@ -154,7 +154,7 @@ figcaption a:hover {
 }
 
 .activities-description-text {
-    font-size: clamp(13px, 1.8vw, 20px);
+    font-size: clamp(13px, 1.8vw, 18px);
     line-height: 1.7;
     max-width: 550px;
     margin: 0 auto;
@@ -316,8 +316,8 @@ figcaption a:hover {
 
 .food-banner {
     width: auto;
-    max-width: 1200px;
-    height: clamp(100px, 25vw, 350px);
+    max-width: 800px;
+    height: clamp(110px, 33vw, 270px);
     border-radius: 6px;
 }
 
