@@ -88,7 +88,7 @@ figcaption a:hover {
     padding: 30px;
 }
 
-.activities-container, .asian-food-container {
+.activities-container {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
@@ -131,6 +131,12 @@ figcaption a:hover {
     width: 100%;
     max-width: 400px;
     height: auto;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.horizontal-images:hover {
+    transform: scale(1.1);
+    opacity: 0.8;        
 }
 
 .activity-images{
@@ -139,6 +145,12 @@ figcaption a:hover {
     width: 100%;
     max-width: 500px;
     height: auto;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.activity-images:hover {
+    transform: scale(1.1);
+    opacity: 0.8;        
 }
 
 .activities-description-text {
@@ -147,6 +159,8 @@ figcaption a:hover {
     max-width: 550px;
     margin: 0 auto;
 }
+
+
 /* -------------------------------- */
 
 
@@ -307,11 +321,24 @@ figcaption a:hover {
     border-radius: 6px;
 }
 
+.asian-food-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .asian-food-images {
     border: 4px solid #0c304b;
     border-radius: 5px;
     width: 100%;
     max-width: 500px;
+    transition: transform 0.3s, opacity 0.3s;
+    
+}
+
+.asian-food-images:hover {
+    transform: scale(1.1);
+    opacity: 0.8;        
 }
 /* -------------------------------- */
 
