@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>  
     <title>Entertainment ~ Cheap Advisor</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
@@ -58,10 +60,14 @@
 
                     <div class="col-12 col-md-4 mb-4">
                         <h3 class="heading">Children</h3>
-                        <figure>
-                            <img src="img/Entertainment/takapunaplayground.jpg" alt="" class="horizontal-images">
-                            <figcaption><a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/450.html" target="_blank">Auckland Council</a></figcaption>
-                        </figure>
+                        <div class="Takapuna-Playground-Images">
+                            <a href="img/Entertainment/takapunaplayground.jpg" data-fancybox="Takapuna-Playground-Gallery" data-caption="Takapuna Playground Images"> 
+                                <img src="img/Entertainment/takapunaplayground.jpg" alt="" class="horizontal-images">
+                            </a>
+                            <figcaption>
+                                <a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/450.html" target="_blank">Auckland Council</a>
+                            </figcaption>
+                        </div>
                         <h4 class="description-heading">Takapuna Beach Playground</h4>
                         <p class="description-text">Takapuna Beach Playground is a great free spot for families. It sits right by the beach and has beautiful views of Rangitoto Island. The playground has climbing frames, slides, and swings for different ages. That makes it fun for both younger children and older kids. Parents can relax nearby while the children play. There are also cafés and takeaway shops within walking distance. It is a fun and cheap day out.</p>
                     </div>
@@ -136,10 +142,7 @@
                 </div> 
             </div>
         </div>
-
-
     </div>
-
     </div>
 
 
@@ -179,5 +182,30 @@
             </div>
         </div>
     </footer>
+
+
+    <script>
+            Fancybox.bind('[data-fancybox="Takapuna-Playground-Gallery"]', {
+                Toolbar: {
+                    display: {
+                    left: ["infobar"],
+       
+
+                    middle: [
+                        "zoomIn",
+                        "zoomOut",
+                        "toggle1tol",
+                        "rotateCCW",
+                        "rotateCW",  
+                        "flipX",      
+                        "flipY",      
+                    ],
+   
+                    right: ["slideshow", "thumbs", "close"],
+                    },
+                },
+            });  
+        </script>
+
 </body>
 </html>
