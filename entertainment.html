@@ -60,14 +60,14 @@
 
                     <div class="col-12 col-md-4 mb-4">
                         <h3 class="heading">Children</h3>
-                        <div class="Takapuna-Playground-Images">
-                            <a href="img/Entertainment/takapunaplayground.jpg" data-fancybox="Takapuna-Playground-Gallery" data-caption="Takapuna Playground Images"> 
-                                <img src="img/Entertainment/takapunaplayground.jpg" alt="" class="horizontal-images">
+                        <figure>
+                            <a href="img/Entertainment/takapunaplayground.jpg" data-fancybox="Takapuna-Playground-Gallery" data-caption='<a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/450.html" target="_blank">Auckland Council</a>'> 
+                                <img src="img/Entertainment/takapunaplayground.jpg" alt="" class="horizontal-images" id="TopPicksHover">
                             </a>
                             <figcaption>
                                 <a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/450.html" target="_blank">Auckland Council</a>
                             </figcaption>
-                        </div>
+                        </figure>
                         <h4 class="description-heading">Takapuna Beach Playground</h4>
                         <p class="description-text">Takapuna Beach Playground is a great free spot for families. It sits right by the beach and has beautiful views of Rangitoto Island. The playground has climbing frames, slides, and swings for different ages. That makes it fun for both younger children and older kids. Parents can relax nearby while the children play. There are also cafés and takeaway shops within walking distance. It is a fun and cheap day out.</p>
                     </div>
@@ -75,8 +75,12 @@
                     <div class="col-12 col-md-4 mb-4">
                         <h3 class="heading">Teenagers</h3>
                         <figure>
-                            <img src="img//Entertainment/arenaentertainment.png" alt="" class="horizontal-images">
-                            <figcaption><a href="https://unsplash.com/photos/a-row-of-slot-machines-sitting-next-to-each-other-ch7ayIc0xRI" target="_blank">Denise Jans- Unsplash</a></figcaption>
+                            <a href="img/Entertainment/arenaentertainment.png" data-fancybox="Arena-Entertainment-Gallery" data-caption='<a href="https://unsplash.com/photos/a-row-of-slot-machines-sitting-next-to-each-other-ch7ayIc0xRI" target="_blank">Denise Jans- Unsplash</a>'> 
+                                <img src="img/Entertainment/arenaentertainment.png" alt="" class="horizontal-images" id="TopPicksHover">
+                            </a>
+                            <figcaption>
+                                <a href="https://unsplash.com/photos/a-row-of-slot-machines-sitting-next-to-each-other-ch7ayIc0xRI" target="_blank">Denise Jans- Unsplash</a>
+                            </figcaption>
                         </figure>
                         <h4 class="description-heading">Arena Entertainment</h4>
                         <p class="description-text">Arena Entertainment is a fun indoor place for teenagers. It has arcade games, racing games, and other interactive activities. Entry is usually free. Most games cost about $2 to $5 each. It is a great place to hang out with friends. The bright lights and competitive games make it exciting. It is also a good choice on rainy days or cold weekends.</p>
@@ -85,8 +89,12 @@
                     <div class="col-12 col-md-4 mb-4">
                         <h3 class="heading">Tourists</h3>
                         <figure>
-                            <img src="img/Entertainment/northhead.jpg" alt="" class="horizontal-images">
-                            <figcaption><a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/1402.html" target="_blank">Auckland Council</a></figcaption>
+                            <a href="img/Entertainment/northhead.jpg" data-fancybox="North-Head-Gallery" data-caption='<a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/1402.html" target="_blank">Auckland Council</a>'>
+                                <img src="img/Entertainment/northhead.jpg" alt="" class="horizontal-images" id="TopPicksHover">
+                            </a>
+                            <figcaption>
+                                <a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/1402.html" target="_blank">Auckland Council</a>
+                            </figcaption>
                         </figure>
                         <h4 class="description-heading">North Head</h4>
                         <p class="description-text">North Head is a great place for tourists to visit. It is free to enter and has amazing harbour views. Visitors can explore old military tunnels and gun sites. The area is full of history and natural beauty. It is also a great place for photos and short walks. North Head is a simple and low-cost way to enjoy Auckland.</p>
@@ -186,6 +194,48 @@
 
     <script>
             Fancybox.bind('[data-fancybox="Takapuna-Playground-Gallery"]', {
+                Toolbar: {
+                    display: {
+                    left: ["infobar"],
+       
+
+                    middle: [
+                        "zoomIn",
+                        "zoomOut",
+                        "toggle1tol",
+                        "rotateCCW",
+                        "rotateCW",  
+                        "flipX",      
+                        "flipY",      
+                    ],
+   
+                    right: ["slideshow", "thumbs", "close"],
+                    },
+                },
+            });  
+
+            Fancybox.bind('[data-fancybox="Arena-Entertainment-Gallery"]', {
+                Toolbar: {
+                    display: {
+                    left: ["infobar"],
+       
+
+                    middle: [
+                        "zoomIn",
+                        "zoomOut",
+                        "toggle1tol",
+                        "rotateCCW",
+                        "rotateCW",  
+                        "flipX",      
+                        "flipY",      
+                    ],
+   
+                    right: ["slideshow", "thumbs", "close"],
+                    },
+                },
+            });  
+
+            Fancybox.bind('[data-fancybox="North-Head-Gallery"]', {
                 Toolbar: {
                     display: {
                     left: ["infobar"],
