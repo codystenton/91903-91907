@@ -104,6 +104,7 @@ figcaption a:hover {
 
 .cbdimage{
     box-shadow: 10px 10px #9e9a8f;
+    margin-bottom: 20px;
 }
 
 .indexh5{
@@ -184,9 +185,6 @@ figcaption a:hover {
     width: 500px;
 }
 
-.cbdimage{
-    margin-bottom: 20px;
-}
 
 .reviewcontainer{
     margin-top: -130px;
