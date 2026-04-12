@@ -64,7 +64,7 @@ figcaption a {
 }
 
 figcaption a:hover {
-    color: #0c304b;
+    color: gray;
     font-size: clamp(10px, 0.85vw, 25px);
     text-decoration: underline;
 }
