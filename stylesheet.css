@@ -228,11 +228,29 @@ figcaption a:hover {
     font-weight: 450;
 }
 
+.heading a {
+    color: black;
+}
+
+.heading a:hover {
+    font-size: clamp(15px, 1.6vw, 38px);
+    color: rgb(67, 67, 67);
+}
+
 .description-heading {
     font-size: clamp(14px, 1.5vw, 35px);
     text-decoration: underline;
     margin-top: 12px;
     margin-bottom: 5px;
+}
+
+.description-heading a{
+    color: black;
+}
+
+.description-heading a:hover {
+    font-size: clamp(15px, 1.6vw, 38px);
+    color: rgb(67, 67, 67);
 }
 
 .description-text {
@@ -251,11 +269,11 @@ figcaption a:hover {
     height: auto;
 }
 
-#TopPicksHover {
+.TopPicksHover {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-#TopPicksHover:hover {
+.TopPicksHover:hover {
     transform: scale(1.05);
     opacity: 0.8;        
 }
@@ -333,8 +351,6 @@ figcaption a:hover {
 }
 
 /* -------------------------------- */
-
-
 
 
 
