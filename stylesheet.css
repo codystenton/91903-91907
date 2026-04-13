@@ -87,14 +87,14 @@ figcaption a:hover {
 }
 
 .indexheader{
-    width: 100%;
+    height: clamp(100px, 30vw, 300px);
 }
 
 .bannertext{
     position: absolute;
     color: white;
     text-align: center;
-    font-size: clamp(18px, 4vw, 40px);
+    font-size: clamp(18px, 4vw, 60px);
 }
 
 .welcometext{
@@ -109,7 +109,7 @@ figcaption a:hover {
 
 .indexh5{
     font-weight: normal;
-    font-size: clamp(10px, 1vw, 40px)
+    font-size: clamp(10px, 1vw, 60px)
 }
 
 .review-box {
