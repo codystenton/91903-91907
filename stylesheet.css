@@ -146,7 +146,7 @@ figcaption a:hover {
 
 .review-img {
     width: 100%;
-    height: clamp(200px, 25vw, 400px);   
+    height: clamp(260px, 25vw, 400px);
     object-fit: cover; 
     display: block;
 }
