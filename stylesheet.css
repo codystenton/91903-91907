@@ -57,7 +57,7 @@ body {
 }
 
 figcaption a {
-    font-size: clamp(10px, 0.8vw, 25px);
+    font-size: clamp(8.5px, 0.8vw, 25px);
     margin-top: 4px;
     color: gray;
     text-decoration: none;
@@ -87,7 +87,7 @@ figcaption a:hover {
 }
 
 .indexheader{
-    height: clamp(100px, 30vw, 300px);
+    height: clamp(60px, 30vw, 300px);
 }
 
 .bannertext{
@@ -103,7 +103,7 @@ figcaption a:hover {
 }
 
 .cbdimage{
-    box-shadow: 10px 10px #9e9a8f;
+    box-shadow: 0 8px 20px rgb(116, 116, 116);
     margin-bottom: 20px;
 }
 
@@ -118,7 +118,7 @@ figcaption a:hover {
     background-color: #0c304b;
     color: white;
     position: relative;
-    box-shadow: 10px 10px #9e9a8f;
+    box-shadow: 0 8px 20px rgb(116, 116, 116);
 }
 
 
