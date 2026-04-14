@@ -293,6 +293,9 @@ figcaption a:hover {
     margin: 0 auto;
 }
 
+.fancybox__caption {
+    text-align: center;
+}
 
 
 
