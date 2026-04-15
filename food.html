@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- Page/Tab Title -->
     <title>Food ~ Cheap Advisor</title>
+
+    <!-- Font -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
     </style>
 </head>
 
 <body>
-    <!-- Alligns Nav-Bar links and logo horizontally. -->
+    <!-- Nav Bar - Logo + Nav Links -->
     <nav class="navbar d-flex align-items-center">
-        <!-- Adds margin to the logo on larger screens. -->
+        
+        <!-- Logo on the left side of the Nav Bar -->
         <div class="navLogo flex-fill ms-lg-3">
             <div class="navLogo flex-fill ms-3 ms-lg-0 me-lg-5">
                 <a href="index.html">
+                    <!-- Larger Logo (Only shown on screens bigger than sm) -->
                     <img src="img/logo.png" class="logo d-none d-sm-block" alt="LogoImage">
+                    <!-- Smaller Logo without text (Shown only on screens below sm size) -->
                     <img src="img/logo_xs.png" class="logo d-block d-sm-none" alt="LogoImage">
                 </a>
             </div>
         </div>
 
-        <!-- Links to other 3 pages on our website -->
+        <!-- Navigation Links to the sites other pages -->
         <div class="navLinks flex-fill me-lg-5">
             <a class="text-white text-decoration-none" href="index.html">Home</a>
             <a class="text-white text-decoration-none" href="entertainment.html">Entertainment</a>
@@ -32,13 +43,13 @@
             <a class="text-white text-decoration-underline" href="food.html">Food</a>
         </div>
 
-        <!-- Empty space to help balance and center the navbar layout -->
+        <!-- Spacer on the right side to center the nav links -->
         <div class="navRightSpacer flex-fill"></div>
     </nav>
 
     <div class="main-container py-4">
 
-        <!-- Intro Text -->
+        <!-- Main Header Text -->
         <div class="text-center mb-lg-4">
             <h1 class="main-heading">
                 Hungry on a budget?
@@ -50,86 +61,135 @@
             </p>
         </div>
 
+        <!-- Hero Image -->
         <div class="food-banner-container text-center d-flex justify-content-center">
             <figure>
                 <img src="img/Food/food_banner.jpg" alt="Food Banner" class="food-banner">
-                <figcaption><a href="https://unsplash.com/photos/a-group-of-people-sitting-around-a-table-with-food-vJsj-hgOEG0" target="_blank">Spencer Davis - Unsplash</a></figcaption>
+                <!-- Attributin to Hero Image -->
+                <figcaption>
+                    <a href="https://unsplash.com/photos/a-group-of-people-sitting-around-a-table-with-food-vJsj-hgOEG0" target="_blank">Spencer Davis - Unsplash</a>
+                </figcaption>
             </figure>
         </div>
 
+        <!-- Line Spacer -->
         <hr>
 
+        <!-- Burger Card Container -->
         <div class="text-center mb-5 mx-2 mx-md-5">
+
+            <!-- Burger Section Header -->
             <h2 class="section-heading mb-3 mb-lg-5">Feeling like a burger?</h2>
             <div class="row gx-5">
+
+                <!-- Burger Burger Card -->
                 <div class="col-12 col-md-4 mb-4">
                     <figure>
                         <img src="img/Food/burger_burger.jpg" alt="" class="horizontal-images">
-                        <figcaption><a href="https://unsplash.com/photos/a-person-holding-a-large-juicy-cheeseburger-with-bacon-PYvKy9IuAq4" target="_blank">Alexander Bücker - Unsplash</a></figcaption>
+                        <!-- Burger Burger Image Attribution -->
+                        <figcaption>
+                            <a href="https://unsplash.com/photos/a-person-holding-a-large-juicy-cheeseburger-with-bacon-PYvKy9IuAq4" target="_blank">Alexander Bücker - Unsplash</a>
+                        </figcaption>
                     </figure>
+                    <!-- Restaurant Description Header + Link to their site -->
                     <h3 class="description-heading"><a href="https://burgerburger.co.nz/" target="_blank">Burger Burger</a></h3>
+                    <!-- Description of Burger Burger -->
                     <p class="description-text">Burger Burger is a great choice for a more premium burger. The food is fresh, filling, and full of flavour. It costs more than fast food, but the quality makes it feel worth it. It’s a good option if you want to treat yourself without spending too much.</p>
                 </div>
 
+                <!-- Shake Out Card -->
                 <div class="col-12 col-md-4 mb-4">
                     <figure>
                         <img src="img/Food/shake_out.jpg" alt="" class="horizontal-images">
-                        <figcaption><a href="https://unsplash.com/photos/burger-and-fries-on-black-table-aIN58RJSmqM" target="_blank">Joe Darams - Unsplash</a></figcaption>
+                        <!-- Shake Out Image Attribution -->
+                        <figcaption>
+                            <a href="https://unsplash.com/photos/burger-and-fries-on-black-table-aIN58RJSmqM" target="_blank">Joe Darams - Unsplash</a>
+                        </figcaption>
                     </figure>
+                    <!-- Restaurant Description Header + Link to their site -->
                     <h3 class="description-heading"><a href="https://www.shakeout.co/" target="_blank">Shake Out</a></h3>
+                    <!-- Description of Shake Out -->
                     <p class="description-text">Shake Out is a good spot for a simple and satisfying burger meal. It’s known for burgers, fries, and shakes, making it a fun place to go with friends. The atmosphere is casual and relaxed, so it works well for lunch or dinner</p>
                 </div>
 
+                <!-- Wise Boys Card -->
                 <div class="col-12 col-md-4 mb-4">
                     <figure>
                         <img src="img/Food/wise_boys.jpg" alt="" class="horizontal-images">
-                        <figcaption><a href="https://unsplash.com/photos/burger-on-white-ceramic-plate-m50ah221MRg" target="_blank">K8 - Unsplash</a></figcaption>
+                        <!-- Wise Boys Image Attribution -->
+                        <figcaption>
+                            <a href="https://unsplash.com/photos/burger-on-white-ceramic-plate-m50ah221MRg" target="_blank">K8 - Unsplash</a>
+                        </figcaption>
                     </figure>
+                    <!-- Restaurant Description Header + Link to their site -->
                     <h3 class="description-heading"><a href="https://wiseboys.nz/" target="_blank">Wise Boys</a></h3>
+                    <!-- Description of Wise Boys -->
                     <p class="description-text">Wise Boys is a great option for a plant-based burger that still feels filling and indulgent. The food is full of flavour and doesn’t feel like a boring alternative. It’s a good choice for vegetarians, vegans, or anyone wanting something different.</p>
                 </div>
             </div>
+
+            <!-- Line Separator -->
             <hr>
         </div>
 
+        <!-- Asian Food Container -->
         <div class="asian-food-container">
             <div class="text-center mb-5">
+                <!-- Asian Section Header -->
                 <h2 class="section-heading mb-5">Craving Asian?</h2>
 
+                <!-- Eden Noodles -->
                 <div class="row align-items-start mb-5">
                     <div class="col-12 col-md-6">
+                        <!-- Eden Noodles Image -->
                         <figure>
                             <img src="img/Food/eden_noodles.jpg" alt="" class="asian-food-images">
-                            <figcaption><a href="https://www.pexels.com/photo/asian-style-noodles-with-pepper-4223946/" target="_blank">alleksana - Pexels</a></figcaption>
+                            <!-- Eden Noodles Image Attribution -->
+                            <figcaption>
+                                <a href="https://www.pexels.com/photo/asian-style-noodles-with-pepper-4223946/" target="_blank">alleksana - Pexels</a>
+                            </figcaption>
                         </figure>
                     </div>
                     <div class="col-12 col-md-6">
+                        <!-- Eden Noodles Description Header with link to original side + Description of restaurant -->
                         <h3 class="heading text-center mt-md-3 mt-lg-4"><a href="https://edennoodles.nz/" target="_blank">Eden Noodles</a></h3>
                         <p class="activities-description-text md-text-end">Eden Noodles is a favourite for cheap and filling meals. Popular choices include the Dandan Noodles and the spicy beef noodle soup. The portions are generous, and the flavours are strong and warming. It is a great place to go if you want something affordable, spicy, and satisfying.</p>
                     </div>
                 </div>
 
+                <!-- Ramen Takara -->
                 <div class="row align-items-start mb-5">
                     <div class="col-12 col-md-6">
+                        <!-- Ramen Takara Image -->
                         <figure>
                             <img src="img/Food/ramen_takara.jpg" alt="" class="asian-food-images">
-                            <figcaption><a href="https://www.pexels.com/photo/ramen-in-a-bowl-with-chopsticks-on-top-4224214/" target="_blank">alleksana - Pexels</a></figcaption>
+                            <!-- Ramen Takara Image Attribution -->
+                            <figcaption>
+                                <a href="https://www.pexels.com/photo/ramen-in-a-bowl-with-chopsticks-on-top-4224214/" target="_blank">alleksana - Pexels</a>
+                            </figcaption>
                         </figure>
                     </div>
                     <div class="col-12 col-md-6">
+                        <!-- Ramen Takara Description Header with link to original side + Description of restaurant -->
                         <h3 class="heading text-center mt-md-3 mt-lg-4"><a href="https://ramentakara.co.nz/" target="_blank">Ramen Takara</a></h3>
                         <p class="activities-description-text md-text-end">Ramen Takara is a good choice if you want a warm and comforting bowl of ramen. It is known for rich broth, soft noodles, and filling toppings. The food feels simple, hearty, and satisfying, especially on a cold day. It is a reliable option for an easy lunch or dinner.</p>
                     </div>
                 </div>
 
+                <!-- Pocha -->
                 <div class="row align-items-start mb-5">
                     <div class="col-12 col-md-6">
+                        <!-- Pocha Image -->
                         <figure>
                             <img src="img/Food/pocha.jpg" alt="" class="asian-food-images">
-                            <figcaption><a href="https://unsplash.com/photos/a-table-topped-with-bowls-of-food-and-chopsticks--UUkXJIXgy4" target="_blank">Deepthi Clicks - Unsplash</a></figcaption>
+                            <!-- Pocha Image Attribution -->
+                            <figcaption>
+                                <a href="https://unsplash.com/photos/a-table-topped-with-bowls-of-food-and-chopsticks--UUkXJIXgy4" target="_blank">Deepthi Clicks - Unsplash</a>
+                            </figcaption>
                         </figure>
                     </div>
                     <div class="col-12 col-md-6">
+                        <!-- Pocha Description Header with link to original side + Description of restaurant -->
                         <h3 class="heading text-center mt-md-2 mt-lg-3"><a href="https://pocha.co.nz/" target="_blank">Pocha</a></h3>
                         <p class="activities-description-text md-text-end">Pocha is a lively Korean restaurant with lots of variety. The menu includes fried chicken, noodles, rice dishes, and other shareable food. That makes it a fun place to go with friends if you want to try a few different things. It is a good choice if you want bold flavours and a more social dining experience.</p>
                     </div>
@@ -139,6 +199,7 @@
 
     </div>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
             <!-- Bootstrap container to keep content aligned and padded -->
@@ -165,6 +226,7 @@
         </div>
     </footer>
 
+    <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

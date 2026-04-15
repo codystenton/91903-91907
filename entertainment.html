@@ -3,30 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- Fancybox script and stylesheet used for the carousel gallery -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>  
+
+    <!-- Page/Tab Title -->
     <title>Entertainment ~ Cheap Advisor</title>
+
+    <!-- Font -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
     </style>
 </head>
 
 <body>
-    <!-- Alligns Nav-Bar links and logo horizontally. -->
+    <!-- Nav Bar - Logo + Nav Links -->
     <nav class="navbar d-flex align-items-center">
-        <!-- Adds margin to the logo on larger screens. -->
+
+        <!-- Logo on the left side of the Nav Bar -->
         <div class="navLogo flex-fill ms-lg-3">
             <div class="navLogo flex-fill ms-3 ms-lg-0 me-lg-5">
                 <a href="index.html">
+                    <!-- Larger Logo (Only shown on screens bigger than sm) -->
                     <img src="img/logo.png" class="logo d-none d-sm-block" alt="LogoImage">
+                    <!-- Smaller Logo without text (Shown only on screens below sm size) -->
                     <img src="img/logo_xs.png" class="logo d-block d-sm-none" alt="LogoImage">
                 </a>
             </div>
         </div>
 
-        <!-- Links to other 3 pages on our website -->
+        <!-- Navigation Links to the sites other pages -->
         <div class="navLinks flex-fill me-lg-5">
             <a class="text-white text-decoration-none" href="index.html">Home</a>
             <a class="text-white text-decoration-underline" href="entertainment.html">Entertainment</a>
@@ -34,7 +47,7 @@
             <a class="text-white text-decoration-none" href="food.html">Food</a>
         </div>
 
-         <!-- Empty space to help balance and center the navbar layout -->
+         <!-- Spacer on the right side to center the nav links -->
         <div class="navRightSpacer flex-fill"></div>
     </nav>
 
@@ -51,27 +64,32 @@
             </div>
 
 
-            <!-- Top Picks -->
+            <!-- Top Picks Section -->
             <div class="text-center mb-5">
                 <h2 class="section-heading mb-3 mb-lg-5">Below are some of our top picks for:</h2>
                 <div class="row gx-5">
 
+                    <!-- Children Card -->
                     <div class="col-12 col-md-4 mb-4">
                         <h3 class="heading text-decoration-none">Children</h3>
+
                         <figure>
 
+                            <!-- Main Image - Clickable to show fancybox carousel -->
                             <a href="img/Entertainment/takapunaplayground.jpg"
                             data-fancybox="Takapuna-Playground-Gallery"
                             data-caption='<a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/450.html" target="_blank">Auckland Council</a>'>
                                 <img src="img/Entertainment/takapunaplayground.jpg" class="horizontal-images TopPicksHover">
                             </a>
 
+                            <!-- Clickable Image Attribution -->
                             <figcaption>
                                 <a href="https://www.aucklandforkids.co.nz/playgrounds/takapuna-beach-reserve-playground/" target="_blank">
                                     Auckland Council
                                 </a>
                             </figcaption>
 
+                            <!-- Images for the Takapuna Playground carousel -->
                             <a href="img/Entertainment/takapunaplayground2.jpg"
                             data-fancybox="Takapuna-Playground-Gallery"
                             data-caption='<a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/450.html" target="_blank">Auckland Council</a>'>
@@ -88,21 +106,26 @@
                         <p class="description-text">Takapuna Beach Playground is a great free spot for families. It sits right by the beach and has beautiful views of Rangitoto Island. The playground has climbing frames, slides, and swings for different ages. That makes it fun for both younger children and older kids. Parents can relax nearby while the children play. There are also cafés and takeaway shops within walking distance. It is a fun and cheap day out.</p>
                     </div>
 
+                    <!-- Teenagers Card -->
                     <div class="col-12 col-md-4 mb-4">
                         <h3 class="heading text-decoration-none">Teenagers</h3>
+
                         <figure>
+                            <!-- Main Image - Clickable to show fancybox carousel -->
                             <a href="img/Entertainment/arenaentertainment.png"
                             data-fancybox="Arena-Entertainment-Gallery"
                             data-caption='<a href="https://unsplash.com/photos/a-row-of-slot-machines-sitting-next-to-each-other-ch7ayIc0xRI" target="_blank">Denise Jans - Unsplash</a>'> 
                                 <img src="img/Entertainment/arenaentertainment.png" class="horizontal-images TopPicksHover">
                             </a>
 
+                            <!-- Clickable Image Attribution -->
                             <figcaption>
                                 <a href="https://unsplash.com/photos/a-row-of-slot-machines-sitting-next-to-each-other-ch7ayIc0xRI" target="_blank">
                                     Denise Jans - Unsplash
                                 </a>
                             </figcaption>
 
+                            <!-- Images for Entertainment Carousel -->
                             <a href="img/Entertainment/arenaentertainment2.png"
                             data-fancybox="Arena-Entertainment-Gallery"
                             data-caption='<a href="https://unsplash.com/photos/bowling-balls-hitting-pins-TS2_PvGhGgs" target="_blank">Karla Rivera - Unsplash</a>'>
@@ -117,21 +140,26 @@
                         <p class="description-text">Arena Entertainment is a fun indoor place for teenagers. It has arcade games, racing games, and other interactive activities. Entry is usually free. Most games cost about $2 to $5 each. It is a great place to hang out with friends. The bright lights and competitive games make it exciting. It is also a good choice on rainy days or cold weekends.</p>
                     </div>
 
+                    <!-- Tourists Card -->
                     <div class="col-12 col-md-4 mb-4">
                         <h3 class="heading text-decoration-none">Tourists</h3>
+
                         <figure>
+                            <!-- Main North Head Image - Clickable to show fancybox carousel -->
                             <a href="img/Entertainment/northhead.jpg"
                             data-fancybox="North-Head-Gallery"
                             data-caption='<a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/1402.html" target="_blank">Auckland Council</a>'>
                                 <img src="img/Entertainment/northhead.jpg" class="horizontal-images TopPicksHover">
                             </a>
 
+                            <!-- Clickable Image Attribution -->
                             <figcaption>
                                 <a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/1402.html" target="_blank">
                                     Auckland Council
                                 </a>
                             </figcaption>
 
+                            <!-- Images for North Head Carousel + Attribution inside the carousel-->
                             <a href="img/Entertainment/northhead2.jpg"
                             data-fancybox="North-Head-Gallery"
                             data-caption='<a href="https://www.aucklandcouncil.govt.nz/en/parks-recreation/find-park-beach/park-detail/1402.html" target="_blank">Auckland Council</a>'>
@@ -148,32 +176,42 @@
                 </div>
             </div>
             
+<!-- Line Spacer -->
 <hr class="my-5">
+
 
     <div class="activities-container">
         <!-- Activities Section -->
         <div class="text-center mb-5">
             <h2 class="section-heading mb-5">Budget Activities</h2> 
+            
         <!-- Saturday/Sunday Markets -->
             <div class="row align-items-start mb-5">
+                <!-- Text ordering -->
                 <div class="col-12 col-md-6 order-2 order-md-1 mt-md-4">
+                    <!-- Responsive Header -->
                     <h3 class="heading text-center mt-md-4 mt-lg-5"><a href="https://www.aucklandforkids.co.nz/auckland-markets/" target="_blank">Saturday/Sunday markets</a></h3>
                     <p class="activities-description-text md-text-start">Weekend markets are a fun and cheap activity in Auckland. Entry is usually free. Visitors can look around stalls selling handmade goods, food, and fresh produce. Meals are often affordable, usually around $5 to $15. Many markets also have live music and a friendly atmosphere. They are a great place to relax with friends or family.</p>
                 </div>
+                <!-- Image Ordering -->
                 <div class="col-12 col-md-6 order-1 order-md-2 mt-md-4">
                     <figure class>
                         <img src="img/Entertainment/sunday_markets.jpg" alt="" class="activity-images">
-                        <figcaption><a href="https://commons.wikimedia.org/wiki/File:Napier_Urban_Farmers%27_Market_-_Napier,_NZ_-_DSC05295.jpg" target="_blank">Daderot - Wikimedia Commons</a></figcaption>
+                        <figcaption>
+                            <a href="https://commons.wikimedia.org/wiki/File:Napier_Urban_Farmers%27_Market_-_Napier,_NZ_-_DSC05295.jpg" target="_blank">Daderot - Wikimedia Commons</a>
+                        </figcaption>
                     </figure>
                 </div> 
             </div>
 
-                    <!-- Auckalnd Musuem -->
+            <!-- Auckland Musuem -->
             <div class="row align-items-start mb-5 order-1 order-md-1">
                 <div class="col-12 col-md-6">
                     <figure>
                         <img src="img/Entertainment/aucklandmusuem.jpg" alt="" class="activity-images">
-                        <figcaption><a href="https://commons.wikimedia.org/wiki/File:Auckland_War_Memorial_Museum_in_2021.jpg" target="_blank">Dean Hoffman - Wikimedia Commons</a></figcaption>
+                        <figcaption>
+                            <a href="https://commons.wikimedia.org/wiki/File:Auckland_War_Memorial_Museum_in_2021.jpg" target="_blank">Dean Hoffman - Wikimedia Commons</a>
+                        </figcaption>
                     </figure>
                 </div> 
                 <div class="col-12 col-md-6 order-2 order-md-2">
@@ -184,14 +222,18 @@
 
             <!-- Glenfield Pools -->
             <div class="row align-items-start mb-5">
+                <!-- Text Ordering to make the text on the left -->
                 <div class="col-12 col-md-6 order-2 order-md-1">
                     <h3 class="heading text-center mt-lg-3"><a href="https://aucklandleisure.co.nz/locations/glenfield-pool-and-leisure-centre/" target="_blank">Glenfield Pools</a></h3>
                     <p class="activities-description-text md-text-start">Glenfield Pools is a fun and low-cost activity on the North Shore. It is a great choice in any weather. Pool entry is free for children and teens aged 16 and under. The centre also has a hydroslide and three diving boards. These make it more exciting than a normal swim. The hydroslide and dive pool cost extra, with casual access priced at $8.60. This gives visitors the choice of a free swim or extra fun for a small price.</p>
                 </div>
+                <!-- Image ordering and responsiveness so it's on the right -->
                 <div class="col-12 col-md-6 order-1 order-md-2">
                     <figure class>
                         <img src="img/Entertainment/glenfieldpool.png" alt="" class="activity-images">
-                        <figcaption><a href="https://unsplash.com/photos/a-large-swimming-pool-with-a-row-of-lanes-_mKwplKUbJE" target="_blank">Ahmet Kurt - Unsplash</a></figcaption>
+                        <figcaption>
+                            <a href="https://unsplash.com/photos/a-large-swimming-pool-with-a-row-of-lanes-_mKwplKUbJE" target="_blank">Ahmet Kurt - Unsplash</a>
+                        </figcaption>
                     </figure>
                 </div> 
             </div>
@@ -209,6 +251,7 @@
 
 
 
+    <!-- Footer -->
     <footer>
         <div class="container">
 
@@ -237,7 +280,7 @@
         </div>
     </footer>
 
-
+    <!-- Fancybox settings/buttons -->
     <script>
             Fancybox.bind('[data-fancybox="Takapuna-Playground-Gallery"]', {
                 Toolbar: {
