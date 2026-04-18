@@ -137,13 +137,15 @@ figcaption a:hover {
     margin: 0 auto;
     padding: clamp(8px, 3vw, 60px);
     align-items: center;
+    padding: 20px 60px;
 }
 
 .review-text p {
-    font-size: clamp(5px, 1vw, 14px); 
+    font-size: clamp(10px, 1vw, 14px);
     width: clamp(200px, 25vw, 600px);
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
+    line-height: 1.4;
 }
 
 .review-box h1 {
@@ -170,20 +172,6 @@ figcaption a:hover {
     height: 100%;
 }
 
-.review-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 20px 60px;
-}
-
-.review-text p {
-    font-size: clamp(10px, 1vw, 14px);
-    line-height: 1.4;
-    margin: 0;
-}
 
 .indexfigcaptions{
     margin-top: 10px;
@@ -349,6 +337,58 @@ figcaption a:hover {
     height: 250px;
 }
 
+.nature-box {
+    width: 80%;
+    margin: 80px auto;
+    background-color: #0c304b;
+    color: white;
+    position: relative;
+    box-shadow: 0 8px 20px rgb(116, 116, 116);
+}
+
+
+.nature-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: clamp(8px, 3vw, 60px);
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.nature-text p {
+    font-size: clamp(10px, 1vw, 14px);
+    width: clamp(200px, 25vw, 600px);
+    margin: 0;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.nature-box h1 {
+    font-size: clamp(14px, 4vw, 32px);
+    margin-bottom: clamp(4px, 2vw, 15px); 
+}
+
+.nature-img {
+    width: 100%;
+    height: clamp(200px, 34vw, 400px);
+    object-fit: cover; 
+    display: block;
+}
+
+.nature-box .col-md-5{
+    height: 100%;
+}
+
+.nature-box .col-md-7 {
+    height: 100%;
+}
+
+.nature-box .row{
+    height: 100%;
+}
 
 
 
