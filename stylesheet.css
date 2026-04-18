@@ -341,10 +341,13 @@ figcaption a:hover {
 
 /* -------------------------------- */
 
-
-
-
-
+.nature-images {
+    border: 4px solid #0c304b; /* Smooth/Curved Border */
+    /* Responsive width: scales with the screen size but has a maximum to prevent it from getting too large on big screens */
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+}
 
 
 
