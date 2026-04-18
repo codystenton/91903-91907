@@ -330,11 +330,10 @@ figcaption a:hover {
 /* -------------------------------- */
 
 .nature-images {
-    border: 4px solid #0c304b; /* Smooth/Curved Border */
-    /* Responsive width: scales with the screen size but has a maximum to prevent it from getting too large on big screens */
+    border: 4px solid #0c304b;
     width: 100%;
     max-width: 400px;
-    height: 250px;
+    height: clamp(200px, 20vw, 300px);
 }
 
 .nature-box {
@@ -373,7 +372,7 @@ figcaption a:hover {
 
 .nature-img {
     width: 100%;
-    height: clamp(200px, 34vw, 400px);
+    height: clamp(200px, 49vw, 400px);
     object-fit: cover; 
     display: block;
 }
