@@ -329,6 +329,13 @@ figcaption a:hover {
 
 /* -------------------------------- */
 
+.naturebanner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nature-images {
     border: 4px solid #0c304b;
     width: 100%;
@@ -389,9 +396,18 @@ figcaption a:hover {
     height: 100%;
 }
 
+.naturebannerimg{
+    height: clamp(30px, 25vw, 270px);
+}
 
+.naturehover {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
 
-
+.naturehover:hover {
+    transform: scale(1.05);
+    opacity: 0.8;        
+}
 
 /* -------------------------------- */
         /* Food */
