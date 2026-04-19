@@ -86,6 +86,8 @@ figcaption a:hover {
 /* -------------------------------- */
 
 
+/* Styling for the banner on the top of the index page; this ensures it spans the full width 
+and maintains aspect ratio, as well as letting the text be centered and inside of the image. */
 .banner{
     position: relative;
     display: flex;
@@ -93,53 +95,68 @@ figcaption a:hover {
     align-items: center;
 }
 
-.indexheader{
+/* Auto-adjusts the height of the banner image + header to fit the screen.*/
+.indexbanner{
     height: clamp(60px, 25vw, 300px);
 }
 
+
+/* Allows the header inside of the banner to be responsive and scale down and up across devices. */
 .bannertext{
     position: absolute;
     color: white;
     text-align: center;
-    font-size: clamp(18px, 4vw, 60px);
+    font-size: clamp(18px, 4vw, 60px); /* Responsive font size for the banner text. */
 }
 
+/* Container for the welcome portion of the index page */
 .welcomeinfo{
     margin-top: 80px;
     margin-bottom: 200px;
 }
 
+/* Styling for the Auckland CBD image */
 .cbdimage{
     box-shadow: 0 8px 20px rgb(116, 116, 116);
     margin-bottom: 20px;
 }
 
+
+/* Makes the font not bold, and allows the paragraph to be responsive on all devices / auto-adjust */
 .indexh5{
     font-weight: normal;
     font-size: clamp(10px, 1vw, 60px);
 }
 
-.review-box {
-    width: 80%;
-    margin: 80px auto;
-    background-color: #0c304b;
-    color: white;
-    position: relative;
-    box-shadow: 0 8px 20px rgb(116, 116, 116);
+/* Container for all 3 reviews boxes, pushes up the boxes more up and towards the <hr> line breaker */
+.reviewcontainer{
+    margin-top: -130px;
 }
 
 
+/* Styling for each review box */
+.review-box {
+    width: 80%; /* Sets the width of each review box at 80%, keeping it at an appropriate size*/
+    margin: 80px auto;
+    background-color: #0c304b;
+    color: white;
+    position: relative; /* Allows for absolute positioning of elements inside the box (text, images) if needed */
+    box-shadow: 0 8px 20px rgb(116, 116, 116); /* Adds a shadow effect to the review boxes */
+}
+
+/* Wrapper / Container for all the text within the review boxes */
 .review-text {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     max-width: 80%;
     margin: 0 auto;
-    padding: clamp(8px, 3vw, 60px);
+    padding: clamp(8px, 3vw, 60px); /* Responsive padding for the text inside the review boxes, scales with screen size */
     align-items: center;
     padding: 20px 60px;
 }
 
+/* Styling for the paragraphs inside the review boxes */
 .review-text p {
     font-size: clamp(10px, 1vw, 14px);
     width: clamp(200px, 25vw, 600px);
@@ -148,11 +165,13 @@ figcaption a:hover {
     line-height: 1.4;
 }
 
+/* Styling for the headings inside the review boxes */
 .review-box h1 {
-    font-size: clamp(14px, 4vw, 32px);
-    margin-bottom: clamp(4px, 2vw, 15px); 
+    font-size: clamp(14px, 4vw, 32px); /* Responsive font size for the headings */
+    margin-bottom: clamp(4px, 2vw, 15px); /* Margin below the heading that scales to create spacing between the heading and the paragraph text */
 }
 
+/* Image styling for pictures inside review boxes */
 .review-img {
     width: 100%;
     height: clamp(200px, 34vw, 400px);
@@ -160,6 +179,7 @@ figcaption a:hover {
     display: block;
 }
 
+/* Column styling for the review boxes */
 .review-box .col-md-5{
     height: 100%;
 }
@@ -173,16 +193,12 @@ figcaption a:hover {
 }
 
 
+/* Styling for the figcaptions under images, and responsiveness */
 .indexfigcaptions{
     margin-top: 10px;
     text-align: center;
     font-size: clamp(10px, 1vw, 14px);
     width: 500px;
-}
-
-
-.reviewcontainer{
-    margin-top: -130px;
 }
 
 
