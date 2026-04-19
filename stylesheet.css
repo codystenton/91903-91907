@@ -347,62 +347,70 @@ and maintains aspect ratio, as well as letting the text be centered and inside o
 
 /* -------------------------------- */
 
+
+/* Banner container - centers the heading text over the image */
 .naturebanner{
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Horizontal Centering */
+    align-items: center; /* Vertical Centering */
 }
 
+/* Beach images in the 3-column section */
 .beach-images {
     border: 4px solid #0c304b;
-    width: 100%;
-    max-width: 400px;
-    height: clamp(200px, 20vw, 300px);
+    width: 100%; /* Responsive width */
+    max-width: 400px; /* Prevents images from becoming too large */
+    height: clamp(200px, 20vw, 300px); /* Responsive height scaling */
 }
 
+/* Main content box for each nature location */
 .nature-box {
-    width: 80%;
-    margin: 80px auto;
+    width: 80%; /* Keeps content centered with margins */
+    margin: 80px auto; /* Spacing between sections */
     background-color: #0c304b;
     color: white;
     position: relative;
-    box-shadow: 0 8px 20px rgb(116, 116, 116);
+    box-shadow: 0 8px 20px rgb(116, 116, 116); /* Depth / Shadow effect */
 }
 
-
+/* Text container inside each nature box */
 .nature-text {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;  /* Stacks heading + paragraph vertically */
+    justify-content: center; /* Vertically centers content */
     max-width: 80%;
     margin: 0 auto;
     padding: clamp(8px, 3vw, 60px);
     align-items: center;
-    padding: 20px 60px;
+    padding: 20px 60px; /* Consistent spacing inside text box */
 }
 
+/* Paragraph styling */
 .nature-text p {
-    font-size: clamp(10px, 1vw, 14px);
-    width: clamp(200px, 25vw, 600px);
+    font-size: clamp(10px, 1vw, 14px); /* Responsive text size */
+    width: clamp(200px, 25vw, 600px); /* Controls line length */
     margin: 0;
     text-align: center;
-    line-height: 1.3;
+    line-height: 1.3; 
 }
 
+/* Headings inside each nature box */
 .nature-box h1 {
-    font-size: clamp(10px, 3vw, 32px);
+    font-size: clamp(10px, 3vw, 32px); /* Scales with screen size */
     margin-bottom: clamp(4px, 2vw, 15px); 
     width: clamp(200px, 25vw, 600px);
 }
 
+/* Images inside nature boxes (Trail Section) */
 .nature-img {
     width: 100%;
     height: clamp(250px, 50vw, 500px);
-    object-fit: cover; 
+    object-fit: cover; /* Prevents distortion, crops instead */
     display: block;
 }
 
+/* Ensure Bootstrap columns fill full height of container */
 .nature-box .col-md-5{
     height: 100%;
 }
@@ -415,22 +423,26 @@ and maintains aspect ratio, as well as letting the text be centered and inside o
     height: 100%;
 }
 
+/* Banner image sizing */
 .naturebannerimg{
     height: clamp(60px, 16vw, 230px);
 }
 
+/* Hover effect for interactive elements (images + headings) */
 .naturehover {
     transition: transform 0.3s ease;
 }
 
 .naturehover:hover {
-    transform: scale(1.05);   
+    transform: scale(1.05);  /* Slight zoom effect */
 }
 
+/* Heading links inside nature boxes */
 .trail-heading a{
     color: white;
 }
 
+/* Removes underline from links */
 .nature-links{
     text-decoration: none;
 }
