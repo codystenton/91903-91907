@@ -184,6 +184,8 @@ figcaption a:hover {
 .reviewcontainer{
     margin-top: -130px;
 }
+
+
 /* -------------------------------- */
 
 
@@ -373,13 +375,14 @@ figcaption a:hover {
 }
 
 .nature-box h1 {
-    font-size: clamp(14px, 4vw, 32px);
+    font-size: clamp(10px, 3vw, 32px);
     margin-bottom: clamp(4px, 2vw, 15px); 
+    width: clamp(200px, 25vw, 600px);
 }
 
 .nature-img {
     width: 100%;
-    height: clamp(200px, 49vw, 400px);
+    height: clamp(300px, 50vw, 600px);
     object-fit: cover; 
     display: block;
 }
@@ -397,17 +400,21 @@ figcaption a:hover {
 }
 
 .naturebannerimg{
-    height: clamp(30px, 25vw, 270px);
+    height: clamp(60px, 16vw, 230px);
 }
 
 .naturehover {
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .naturehover:hover {
-    transform: scale(1.05);
-    opacity: 0.8;        
+    transform: scale(1.05);   
 }
+
+.trail-heading a{
+    color: white;
+}
+
 
 /* -------------------------------- */
         /* Food */
